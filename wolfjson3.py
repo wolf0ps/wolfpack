@@ -99,14 +99,7 @@ with open("logs.json", 'w') as file:
 
 def main():
     upn = ["user_name", 'username', 'user', 'user', 'who', 'account', 'user_id']
-    ips = ["source_ip",
-    "src",
-    "ip",
-    "ip_address",
-    "origin_ip",
-    "where",
-    "src_ip",
-    "ip_addr"]
+    ips = ["source_ip", "src", "ip", "ip_address", "origin_ip", "where", "src_ip", "ip_addr"]
     failed_status = ["failed", "Failed", "FAILED", "fail"]
     ip_addr = []
     with open('logs.json', 'r') as file:
